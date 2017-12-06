@@ -5,7 +5,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'index.js',
-  }
+  },
   devServer: {
     contentBase: path.join(__dirname, "public"),
     compress: true,
